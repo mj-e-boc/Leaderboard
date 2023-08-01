@@ -27,9 +27,9 @@ The leaderboard is board for displaying the ranking of the leaders in a competit
 <details>
   <summary>Frontend</summary>
   <ul>
-    <li><a href="https://reactjs.org/](https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">JavaScript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
 

@@ -37,12 +37,18 @@ section {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 4%;
 }
 
 /* Styling for scores list */
 .scores-list {
   width: 100%;
   border: 1px solid black;
+}
+
+
+.scores-heading{
+  margin-bottom: 4%;
 }
 
 /* Styling for list items */
@@ -62,13 +68,15 @@ li {
 
 /* Input styles */
 .input-name-score input {
-  width: 100%;
+  width: 80%;
+  margin-bottom: 4%;
 }
 
 /* Score button alignment */
 .score-button {
   display: flex;
   justify-content: flex-end;
+  margin-right: 20%;
 }
 
 /* Footer styles */
