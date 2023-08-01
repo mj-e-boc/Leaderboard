@@ -4,7 +4,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -17,7 +16,7 @@
 - [❓ FAQ ](#faq)
 - [📝 License](#license)
 
-# 📖 Todo list <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 The leaderboard is board for displaying the ranking of the leaders in a competitive event built with HTML, CSS and Javascript.
 
@@ -40,11 +39,6 @@ The leaderboard is board for displaying the ranking of the leaders in a competit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-<!-- - [Live Demo Link]() -->
-Live Demo will added soon.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -60,7 +54,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-git clone https://github.com/mj-e-boc/M-J-Portfolio.git
+git clone https://github.com/mj-e-boc/Leaderboard-setup-project.git
 ```
 open the project using:
 cd folder-name
