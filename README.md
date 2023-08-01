@@ -1,76 +1,121 @@
-# Webpack Linters Template
+# 📗 Table of Contents
 
-This is a template repository for setting up a project with Webpack and linters (ESLint and Stylelint) configured. It provides a solid foundation for building JavaScript and CSS projects while ensuring code quality and adherence to coding standards.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ ](#faq)
+- [📝 License](#license)
 
-## Features
+# 📖 Todo list <a name="about-project"></a>
 
-- Webpack configuration for bundling JavaScript and CSS files
-- ESLint for JavaScript linting with a recommended configuration
-- Stylelint for CSS linting with a recommended configuration
-- Pre-commit hooks to run linters before committing changes
-- Deployment script for deploying the project to GitHub Pages
+The leaderboard is board for displaying the ranking of the leaders in a competitive event built with HTML, CSS and Javascript.
 
-## Getting Started
+## 🛠 Built With <a name="built-with"></a>
 
-To use this template and set up your project, follow these steps:
+### Tech Stack <a name="tech-stack"></a>
 
-1. Click on the "Use this template" button or manually clone the repository.
-2. Clone the repository to your local machine using Git.
-   ```bash
-   git clone https://github.com/kit0-0/webpack-linters-template.git
-   ```
-3. Navigate to the project directory.
-   ```bash
-   cd webpack-linters-template
-   ```
-4. Install the dependencies.
-   ```bash
-   npm install
-   ```
-5. Start the development server.
-   ```bash
-   npm start
-   ```
-   This will compile the project and launch the development server.
-6. Begin coding your project, writing JavaScript and CSS code in the `src` directory.
+<details>
+  <summary>Frontend</summary>
+  <ul>
+    <li><a href="https://reactjs.org/](https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">JavaScript</a></li>
+  </ul>
+</details>
 
-## Scripts
+### Key Features <a name="key-features"></a>
 
-The following scripts are available in the project:
+- Shows the names of the competitors and the respective scores 
 
-- `npm start`: Starts the development server.
-- `npm run build`: Builds the project for production.
-- `npm run lint`: Runs ESLint and Stylelint to check for linting issues.
-- `npm test`: Runs the project's tests (if any).
-- `npm run deploy`: Deploys the project to GitHub Pages.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Configuration
+## 🚀 Live Demo <a name="live-demo"></a>
 
-The project includes default configurations for ESLint and Stylelint, located in the root directory:
+<!-- - [Live Demo Link]() -->
+Live Demo will added soon.
 
-- `.eslintrc.json`: ESLint configuration file with recommended settings.
-- `.stylelintrc.json`: Stylelint configuration file with recommended settings.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can modify these configuration files according to your project's requirements.
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Pre-commit Hooks
+### Prerequisites
 
-The project is configured to run the linters automatically before committing changes, ensuring that code quality and style standards are maintained. If any issues are found, the commit will be blocked until the issues are resolved.
+In order to run this project you need:
 
-## Deploying to GitHub Pages
+- A computer with terminal
 
-To deploy your project to GitHub Pages, use the following script:
+### Setup
 
-```bash
-npm run deploy
+Clone this repository to your desired folder:
+
+```sh
+git clone https://github.com/mj-e-boc/M-J-Portfolio.git
 ```
+open the project using:
+cd folder-name
 
-This script will use `gh-pages` to deploy the contents of the `dist` directory to the `gh-pages` branch of your repository. Make sure to set up GitHub Pages for your repository before running this command.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contributing
+## 👥 Authors <a name="authors"></a>
 
-If you have suggestions, improvements, or bug fixes, please feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request with a clear description of your changes.
+👤 **Ronald Mjonono**
 
-## License
+- GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
+- Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ronald-mjonono-86365988/)
 
-The project is licensed under the [MIT License](LICENSE). Feel free to use and modify the template according to your needs.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add Drug and Drop Task**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/mj-e-boc/Leaderboard-setup-project/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project feel free to get in touch with me via a message here or contact platforms listed above.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the microverse Alumni that keep inspiring me to code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I use this project?**
+
+  - Under MIT license you can use this project.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/mj-e-boc/To-Do-List/blob/webpack-setup/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
