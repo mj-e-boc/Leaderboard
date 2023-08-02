@@ -1,22 +1,85 @@
-:root {
-  --primary: #ddd;
-  --secondary: #e5d4d4;
-}
-
-html,
-body {
+/* Reset styles */
+* {
   margin: 0;
   padding: 0;
-  background-color: var(--primary);
+  box-sizing: border-box;
 }
 
+/* Main container */
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  flex-direction: column;
+  height: 100vh;
 }
 
-* {
-  box-sizing: border-box;
+/* Common padding for header, main, and footer */
+header,
+main,
+footer {
+  padding: 21px;
+}
+
+/* Main content grid */
+main {
+  display: grid;
+  grid-template-columns: 46% 46%;
+  gap: 3%;
+  height: 100%;
+}
+
+/* Styling for sections */
+section {
+  padding: 21px 0;
+}
+
+/* Header styles */
+.show-head {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+/* Styling for scores list */
+.scores-list {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.scores-heading {
+  margin-bottom: 4%;
+}
+
+/* Styling for list items */
+li {
+  display: flex;
+  list-style: none;
+}
+
+/* Alternate row background colors */
+.scores-list li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.scores-list li:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+/* Input styles */
+.input-name-score input {
+  width: 80%;
+  margin-bottom: 4%;
+}
+
+/* Score button alignment */
+.score-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20%;
+}
+
+/* Footer styles */
+footer {
+  border-top: 1px solid black;
+  background-color: #d3d3d3;
 }
