@@ -10,76 +10,160 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Nice font-family */
+  background-color: #f0f0f0; /* Light background color */
 }
 
 /* Common padding for header, main, and footer */
 header,
 main,
 footer {
-  padding: 21px;
+  padding: 20px;
 }
 
 /* Main content grid */
 main {
   display: grid;
-  grid-template-columns: 46% 46%;
-  gap: 3%;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
   height: 100%;
 }
 
 /* Styling for sections */
 section {
-  padding: 21px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+  background-color: #fff; /* White background color */
 }
 
 /* Header styles */
-.show-head {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin-bottom: 4%;
+header {
+  background-color: #007bff; /* Blue header background color */
+  color: #fff; /* White text color */
+  text-align: center;
 }
 
 /* Styling for scores list */
 .scores-list {
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #ccc; /* Light border color */
+  background-color: #fff; /* White background color */
 }
 
 .scores-heading {
-  margin-bottom: 4%;
+  margin-bottom: 3%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark heading color */
 }
 
 /* Styling for list items */
 li {
   display: flex;
   list-style: none;
+  justify-content: space-between;
+  padding: 8px 16px;
 }
 
 /* Alternate row background colors */
 .scores-list li:nth-child(odd) {
-  background-color: #f0f0f0;
+  background-color: #f5f5f5; /* Light gray background color */
 }
 
 .scores-list li:nth-child(even) {
-  background-color: #d3d3d3;
+  background-color: #f0f0f0; /* Slightly darker gray background color */
 }
 
 /* Input styles */
+.input-name-score label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
 .input-name-score input {
-  width: 80%;
-  margin-bottom: 4%;
+  width: 100%; /* Return to the initial width */
+  padding: 10px 15px; /* Return to the initial padding */
+  margin-bottom: 5%; /* Return to the initial margin */
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 4px;
+  color: #333; /* Dark text color */
 }
 
 /* Score button alignment */
 .score-button {
   display: flex;
   justify-content: flex-end;
-  margin-right: 20%;
+}
+
+/* Style the Submit button */
+#add-score {
+  background-color: #007bff; /* Blue button color */
+  color: #fff; /* White text color */
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+#add-score:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Move the button slightly up on hover */
+}
+
+#add-score:focus {
+  outline: none; /* Remove the focus outline */
+}
+
+/* Style the Refresh button */
+#scores-refresh {
+  background-color: #28a745; /* Green button color */
+  color: #fff; /* White text color */
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#scores-refresh:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Move the button slightly up on hover */
+}
+
+#scores-refresh:focus {
+  outline: none; /* Remove the focus outline */
 }
 
 /* Footer styles */
 footer {
-  border-top: 1px solid black;
-  background-color: #d3d3d3;
+  border-top: 1px solid #ccc; /* Light border color */
+  background-color: #f0f0f0; /* Light background color */
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666; /* Gray text color */
+}
+
+/* Media Query for Mobile and Small Screens */
+@media (max-width: 767px) {
+  main {
+    grid-template-columns: 1fr; /* Change to a single column layout for mobile and small screens */
+    gap: 0;
+  }
+
+  .show-scores,
+  .add-scores {
+    padding: 10px; /* Reduce padding for smaller screens */
+    margin: 5px; /* Reduce margin for smaller screens */
+  }
+
+  .add-scores {
+    margin-top: 0; /* Remove top margin to display side by side */
+  }
 }

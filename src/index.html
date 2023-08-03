@@ -10,28 +10,47 @@
         <h1>Leaderboard</h1>
     </header>
     <main>
-        <!-- Section that displays the scoreboard -->
+        <!-- sections that shows score board -->
         <section class="show-scores">
             <div class="show-head">
                 <h2 class="show-heading">Recent scores</h2>
                 <button id="scores-refresh" type="button">Refresh</button>
             </div>
             <ul class="scores-list">
-                <!-- List elements for displaying names and scores will be added dynamically -->
+                <!-- example list elements (scores) -->
+                <li>
+                    <p class="show-name">Name:</p>
+                    <p class="show-score">100</p>
+                </li>
+                <li>
+                    <p class="show-name">Name:</p>
+                    <p class="show-score">20</p>
+                </li>
+                <li>
+                    <p class="show-name">Name:</p>
+                    <p class="show-score">50</p>
+                </li>
+                <li>
+                    <p class="show-name">Name:</p>
+                    <p class="show-score">78</p>
+                </li>
+                <li>
+                    <p class="show-name">Name:</p>
+                    <p class="show-score">125</p>
+                </li>
             </ul>
         </section>
-        
-        <!-- Section to add a new name and score -->
+        <!-- section to add the name and score -->
         <section class="add-scores">
             <h2 class="scores-heading">Add your score</h2>
             <form action="#" method="POST">
                 <div class="input-name-score">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="Your name" required>
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Your name" required/>
                 </div>
                 <div class="input-name-score">
-                    <label for="score">Score:</label>
-                    <input type="number" id="score" placeholder="Your score" required>
+                    <label for="score"></label>
+                    <input type="number" id="score" placeholder="Your score" required/>
                 </div>
                 <div class="score-button">
                     <button type="button" id="add-score">Submit</button>
@@ -39,8 +58,6 @@
             </form>
         </section>
     </main>
-    <footer>Footer content here</footer>
-    
-    <!-- Add any JavaScript scripts or links here -->
+    <footer>footer</footer>
 </body>
 </html>
